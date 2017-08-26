@@ -16,6 +16,7 @@ class ChartViewController: UIViewController, ChartViewDelegate {
     var days: [String]?
     override func viewDidLoad() {
         super.viewDidLoad()
+        //Days Array
         days = ["Mo","Tu","We","Th","Fr","Sa","Su"]
         // Do any additional setup after loading the view.
         let values = [110.0,90.0,128.0,130.0,105.0,120.0, 110.0, 90.0, 128.0, 130.0, 105.0, 80.0, 110.0, 90.0, 128.0, 130.0, 105.0, 130.0, 110.0]
