@@ -12,8 +12,19 @@
 		074711A01D444E13005D3EBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0747119F1D444E13005D3EBB /* Assets.xcassets */; };
 		074711A31D444E13005D3EBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 074711A11D444E13005D3EBB /* LaunchScreen.storyboard */; };
 		074711AC1D444F1D005D3EBB /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074711AB1D444F1D005D3EBB /* ChartViewController.swift */; };
+		A0C6500C1F52228000FC18AF /* Chart_ImplementationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C6500B1F52228000FC18AF /* Chart_ImplementationTests.swift */; };
 		C06CFB804DFB1F98A0E8C9BA /* Pods_Chart_Implementation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 417F34DF8DDBDF5C9A6699B3 /* Pods_Chart_Implementation.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0C6500E1F52228000FC18AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0747118D1D444E13005D3EBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 074711941D444E13005D3EBB;
+			remoteInfo = "Chart Implementation";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		074711951D444E13005D3EBB /* Chart Implementation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chart Implementation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,6 +37,9 @@
 		33E85C33627B2DBF6BBEA211 /* Pods-Chart Implementation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chart Implementation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chart Implementation/Pods-Chart Implementation.debug.xcconfig"; sourceTree = "<group>"; };
 		417F34DF8DDBDF5C9A6699B3 /* Pods_Chart_Implementation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chart_Implementation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CD1045F7A1075D40FBB7CB7 /* Pods-Chart Implementation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chart Implementation.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chart Implementation/Pods-Chart Implementation.release.xcconfig"; sourceTree = "<group>"; };
+		A0C650091F52228000FC18AF /* Chart ImplementationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chart ImplementationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0C6500B1F52228000FC18AF /* Chart_ImplementationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chart_ImplementationTests.swift; sourceTree = "<group>"; };
+		A0C6500D1F52228000FC18AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +51,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A0C650061F52228000FC18AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -44,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				074711971D444E13005D3EBB /* Chart Implementation */,
+				A0C6500A1F52228000FC18AF /* Chart ImplementationTests */,
 				074711961D444E13005D3EBB /* Products */,
 				DBA8B26C291BB5D6EC6D4425 /* Pods */,
 				FB9FB9EB6DF9BB45D1EA64CE /* Frameworks */,
@@ -54,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				074711951D444E13005D3EBB /* Chart Implementation.app */,
+				A0C650091F52228000FC18AF /* Chart ImplementationTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -93,6 +116,15 @@
 				074711A41D444E13005D3EBB /* Info.plist */,
 			);
 			name = Other;
+			sourceTree = "<group>";
+		};
+		A0C6500A1F52228000FC18AF /* Chart ImplementationTests */ = {
+			isa = PBXGroup;
+			children = (
+				A0C6500B1F52228000FC18AF /* Chart_ImplementationTests.swift */,
+				A0C6500D1F52228000FC18AF /* Info.plist */,
+			);
+			path = "Chart ImplementationTests";
 			sourceTree = "<group>";
 		};
 		DBA8B26C291BB5D6EC6D4425 /* Pods */ = {
@@ -135,6 +167,24 @@
 			productReference = 074711951D444E13005D3EBB /* Chart Implementation.app */;
 			productType = "com.apple.product-type.application";
 		};
+		A0C650081F52228000FC18AF /* Chart ImplementationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0C650121F52228000FC18AF /* Build configuration list for PBXNativeTarget "Chart ImplementationTests" */;
+			buildPhases = (
+				A0C650051F52228000FC18AF /* Sources */,
+				A0C650061F52228000FC18AF /* Frameworks */,
+				A0C650071F52228000FC18AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0C6500F1F52228000FC18AF /* PBXTargetDependency */,
+			);
+			name = "Chart ImplementationTests";
+			productName = "Chart ImplementationTests";
+			productReference = A0C650091F52228000FC18AF /* Chart ImplementationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -147,6 +197,10 @@
 				TargetAttributes = {
 					074711941D444E13005D3EBB = {
 						CreatedOnToolsVersion = 7.3;
+					};
+					A0C650081F52228000FC18AF = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 074711941D444E13005D3EBB;
 					};
 				};
 			};
@@ -164,6 +218,7 @@
 			projectRoot = "";
 			targets = (
 				074711941D444E13005D3EBB /* Chart Implementation */,
+				A0C650081F52228000FC18AF /* Chart ImplementationTests */,
 			);
 		};
 /* End PBXProject section */
@@ -176,6 +231,13 @@
 				074711A31D444E13005D3EBB /* LaunchScreen.storyboard in Resources */,
 				074711A01D444E13005D3EBB /* Assets.xcassets in Resources */,
 				0747119E1D444E13005D3EBB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0C650071F52228000FC18AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +301,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A0C650051F52228000FC18AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0C6500C1F52228000FC18AF /* Chart_ImplementationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0C6500F1F52228000FC18AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 074711941D444E13005D3EBB /* Chart Implementation */;
+			targetProxy = A0C6500E1F52228000FC18AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		0747119C1D444E13005D3EBB /* Main.storyboard */ = {
@@ -368,6 +446,30 @@
 			};
 			name = Release;
 		};
+		A0C650101F52228000FC18AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Chart ImplementationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CEO.Chart-ImplementationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chart Implementation.app/Chart Implementation";
+			};
+			name = Debug;
+		};
+		A0C650111F52228000FC18AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Chart ImplementationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CEO.Chart-ImplementationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chart Implementation.app/Chart Implementation";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -388,6 +490,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		A0C650121F52228000FC18AF /* Build configuration list for PBXNativeTarget "Chart ImplementationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0C650101F52228000FC18AF /* Debug */,
+				A0C650111F52228000FC18AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
