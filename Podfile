@@ -1,5 +1,5 @@
 platform :ios,'8.0'
-ue_frameworks!
+use_frameworks!
 
 target 'Chart Implementation' do
 pod 'Charts/Realm'
