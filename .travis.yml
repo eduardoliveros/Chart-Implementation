@@ -2,3 +2,6 @@ language: swift
 xcode_project: Chart Implementation.xcodeproj # path to your xcodeproj folder
 xcode_scheme: Chart ImplementationTests
 install: pod install
+cache:
+  - bundler
+  - cocoapods
